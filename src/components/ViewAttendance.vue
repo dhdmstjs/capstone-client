@@ -208,7 +208,7 @@ export default {
       }
     },
     takeAttendance () {
-      window.location.replace('http://188.166.245.15:8080/attendance/'+this.route +'/'+ this.date)
+      window.location.replace('http://206.189.46.253:8080/attendance/'+this.route +'/'+ this.date)
     }
   }
 }
