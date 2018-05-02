@@ -60,11 +60,11 @@ export default {
           type: 'warning',
         })
       } else {
-        window.location.replace('http://206.189.46.253:8080/view/'+ this.route + '/' + date)
+        window.location.replace('http://206.189.46.253/view/'+ this.route + '/' + date)
       }
     },
     importClass() {
-      window.location.replace('http://206.189.46.253:8080/import')
+      window.location.replace('http://206.189.46.253/import')
     },
     async getPosts () {
       const response = await PostsService.fetchPosts()

@@ -159,7 +159,7 @@ export default {
   },
   methods: {
     studentPage (item) {
-      window.location.replace('http://206.189.46.253:8080/student/' +this.route + '/'+ item._id)
+      window.location.replace('http://206.189.46.253/student/' +this.route + '/'+ item._id)
     },
     async upload(event) { // for images
       console.log("event", event);
@@ -204,7 +204,7 @@ export default {
           mm='0'+mm
       }
       today = yyyy+"-"+mm+"-"+dd
-      window.location.replace('http://206.189.46.253:8080/attendance/' + today)
+      window.location.replace('http://206.189.46.253/attendance/' + today)
     },
     getDate(text) {
       let dates = []
