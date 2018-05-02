@@ -141,8 +141,8 @@
             flag = false
           }
         }
-        // this.$router.push({name:'Posts'})
-        // window.location.replace('http://localhost:8080/posts/'+this.subject)
+         this.$router.push({name:'Posts'})
+         window.location.replace('http://206.189.79.86:8080/posts/'+this.subject)
       }
     },
   }
