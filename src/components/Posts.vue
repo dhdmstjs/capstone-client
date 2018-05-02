@@ -204,7 +204,7 @@ export default {
           mm='0'+mm
       }
       today = yyyy+"-"+mm+"-"+dd
-      window.location.replace('http://206.189.46.253/attendance/' + today)
+      window.location.replace('http://206.189.46.253/attendance/' +this.route +'/' + today)
     },
     getDate(text) {
       let dates = []
