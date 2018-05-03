@@ -159,7 +159,7 @@ export default {
   },
   methods: {
     studentPage (item) {
-      window.location.replace('http://206.189.46.253/student/' +this.route + '/'+ item._id)
+      window.location.replace('http://danielaoh.com/student/' +this.route + '/'+ item._id)
     },
     async upload(event) { // for images
       console.log("event", event);
@@ -180,7 +180,7 @@ export default {
         console.log('hihi'+pair[0]+', '+pair[1]);
       }
       const $this = this
-      axios.post('http://206.189.46.253:8081/posts/img', formData)
+      axios.post('http://danielaoh.com:8081/posts/img', formData)
         this.$swal(
           'Your image is updating~',
           `Please wait...`,
@@ -204,7 +204,7 @@ export default {
           mm='0'+mm
       }
       today = yyyy+"-"+mm+"-"+dd
-      window.location.replace('http://206.189.46.253/attendance/' +this.route +'/' + today)
+      window.location.replace('http://danielaoh.com/attendance/' +this.route +'/' + today)
     },
     getDate(text) {
       let dates = []

@@ -40,7 +40,7 @@ export default {
   },
   methods: {
     importClass() {
-      window.location.replace('http://206.189.46.253/import')
+      window.location.replace('http://danielaoh.com/import')
     },
     async getPosts () {
       const response = await PostsService.fetchPosts()
@@ -64,7 +64,7 @@ export default {
       let route = split[0]+"-"+split[1]
       Vue.prototype.$course = route
       console.log("$course", this.$course);
-      window.location.replace('http://206.189.46.253/class/'+ this.$course)
+      window.location.replace('http://danielaoh.com/class/'+ this.$course)
     }
   }
 }

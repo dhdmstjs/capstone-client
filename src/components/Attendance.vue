@@ -175,7 +175,7 @@ export default {
         console.log("no?");
       }
       if (this.stacksize == this.posts.length) { //stack emtpy = done
-        window.location.replace('http://206.189.46.253/view/'+ this.route+'/'+this.date)
+        window.location.replace('http://danielaoh.com/view/'+ this.route+'/'+this.date)
       }
     }
 
