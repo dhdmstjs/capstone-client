@@ -146,9 +146,10 @@ export default {
         let dateupdate = {date: day, attend: "present"}
         for (let student in this.posts) {
           for (let days in this.posts[student].date) {
-            if (day.indexOf(this.posts[student].date[days].date)>-1) //if date there
+            if (day.indexOf(this.posts[student].date[days].date)>-1) { //if date there
               flag = true
               this.posts[student].date[days].attend = 'present'//only update
+            }
           }
           if (flag == false) {
             this.posts[student].date.push(dateupdate)
