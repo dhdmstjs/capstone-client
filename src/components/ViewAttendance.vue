@@ -209,7 +209,7 @@ export default {
       }
     },
     takeAttendance () {
-      window.location.replace('http://danielaoh.com/attendance/'+this.route +'/'+ this.date)
+      window.location.replace('http://206.189.46.253/attendance/'+this.route +'/'+ this.date)
     }
   }
 }

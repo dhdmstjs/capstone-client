@@ -56,10 +56,10 @@ export default {
   methods: {
     route(type) {
       if (type == "home") {
-        window.location.replace('http://danielaoh.com/')
+        window.location.replace('http://206.189.46.253/')
       }
       if (type == "roster") {
-        window.location.replace('http://danielaoh.com/posts/'+this.class)
+        window.location.replace('http://206.189.46.253/posts/'+this.class)
       }
       if (type == "attendance") {
         let today = new Date()
@@ -73,7 +73,7 @@ export default {
             mm='0'+mm
         }
         today = yyyy+"-"+mm+"-"+dd
-        window.location.replace('http://danielaoh.com/view/'+this.class+'/'+today)
+        window.location.replace('http://206.189.46.253/view/'+this.class+'/'+today)
 
       }
     }

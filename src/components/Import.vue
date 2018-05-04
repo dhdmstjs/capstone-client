@@ -142,7 +142,7 @@
           }
         }
          this.$router.push({name:'Posts'})
-         window.location.replace('http://danielaoh.com/posts/'+this.subject)
+         window.location.replace('http://206.189.46.253/posts/'+this.subject)
       }
     },
   }
